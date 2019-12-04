@@ -91,11 +91,15 @@ main {
 
 footer a {
   text-decoration: none;
-  color: #faf7e4;
+  color: #fff;
 }
 
 .footer-nav a:hover, .footer-nav a:focus {
   text-decoration: underline;
+}
+
+small {
+  color: #faf7e4;
 }
 
 @media only screen and (min-width: 38em) {
