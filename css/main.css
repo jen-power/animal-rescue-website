@@ -94,6 +94,10 @@ footer a {
   color: #faf7e4;
 }
 
+.footer-nav a:hover, .footer-nav a:focus {
+  text-decoration: underline;
+}
+
 @media only screen and (min-width: 38em) {
 
 
