@@ -25,8 +25,12 @@ header, footer {
   color: #fff;
 }
 
+.banner-dog {
+  display: none;
+}
+
 section {
-  background-color: #f3f3f3;
+  background-color: #fff;
 }
 
 .logo {
@@ -70,6 +74,10 @@ section {
 
   header nav ul li {
     display: inline-block;
+  }
+
+  .banner-dog {
+    display: block;
   }
 
 
