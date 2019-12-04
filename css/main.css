@@ -49,6 +49,7 @@ main {
 
 .hover-box {
   color: #000;
+  border-radius: 20px;
 }
 
 .hover-box-caption {
@@ -79,6 +80,7 @@ main {
   background-color: #810000;
   color: #faf7e4;
   border-color: #810000;
+  border-radius: 30px;
 }
 
 .btn:hover {

@@ -1,81 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Adoption Application</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600|Staatliches&display=swap" rel="stylesheet">
 
+</head>
+<body>
 
-<main role="main" id="main" tabindex="0" class="wrapper gutter">
-  <section>
-    <h1 class="not-bold">Adoption Application</h1>
-    <div class="grid">
-      <div class="unit xs-1 m-1-2 push">
-        <img class="img-flex" src="images/dog.png" alt="picture of dog">
+  <main role="main" id="main" tabindex="0" class="wrapper gutter">
+    <section>
+      <h1 class="not-bold">Adoption Application</h1>
+      <div class="grid">
+        <div class="unit xs-1 m-1-2 push">
+          <img class="img-flex" src="images/dog.png" alt="picture of dog">
+        </div>
+        <div class="unit xs-1 m-1-2">
+          <h2 class="kilo not-bold">Description about adoption<a href="index.html">Rondo.</a></h2>
+        </div>
       </div>
-      <div class="unit xs-1 m-1-2">
-        <h2 class="kilo not-bold">Description about adoption<a href="index.html">Rondo.</a></h2>
-      </div>
+    </section>
+
+    <div>
+      <form class="max-length pad-t-2" method="POST" action="https://formspree.io/powe0309@algonquinlive.com">
+        <fieldset>
+          <legend class="giga push">Personal details</legend>
+          <div class="grid">
+            <div class="push unit unit-xs-1 unit-m-1 unit-l-1-2 first-name">
+              <label for="first-name">First Name</label>
+              <input id="first-name">
+            </div>
+            <div class="push unit unit-xs-1 unit-l-1-2">
+              <label for="last-name" class="last-name">Last Name</label>
+              <input id="last-name">
+            </div>
+            <div class="push unit unit-xs-1 unit-l-1-2 bus">
+              <label for="bus">Business</label>
+              <input id="bus">
+            </div>
+            <div class="push unit unit-xs-1 unit-l-1-2">
+              <label for="email" class="email">Business Email</label>
+              <input type="email" id="email" required>
+            </div>
+            <div class="push unit unit-xs-1 unit-l-1-2 city">
+              <label for="city">City</label>
+              <input id="city">
+            </div>
+            <div class="push unit unit-xs-1 unit-l-1-2">
+              <label for="tel" class="tel">Phone Number</label>
+              <input type="tel" id="tel" required>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend class="giga push">Are you interested as a Musician or a Buyer?</legend>
+          <div role="radiogroup" class="push xs-1 text-center">
+            <input type="radio" id="musc" name="agree" value="musc">
+            <label for="musc" class="push-r">Musician</label>
+            <input type="radio" id="buyer" name="agree" value="buyer">
+            <label for="buyer">Buyer</label>
+          </div>
+        </fieldset>
+
+        <div class="push xs-1 text-center gutter-2">
+          <label for="pricing">Which account type are you interested in?</label>
+          <select id="pricing">
+            <option>Free Demo</option>
+            <option>Basic Account</option>
+            <option>Premium Account</option>
+          </select>
+        </div>
+
+        <fieldset>
+          <legend class="giga push">Additional Inquiries</legend>
+          <div class="push">
+            <label for="message">Please include any questions, comments, or concerns below.</label>
+            <textarea id="message" name="name" class="text-area"></textarea>
+          </div>
+        </fieldset>
+        <div class="text-center push-2">
+          <button type="submit" class="btn btn-purp gutter-2">Apply</button>
+        </div>
+        <input type="hidden" name="_subject" value="Rondo account request">
+
+      </form>
     </div>
-  </section>
-
-  <div>
-    <form class="max-length pad-t-2" method="POST" action="https://formspree.io/powe0309@algonquinlive.com">
-      <fieldset>
-        <legend class="giga push">Personal details</legend>
-        <div class="grid">
-          <div class="push unit unit-xs-1 unit-m-1 unit-l-1-2 first-name">
-            <label for="first-name">First Name</label>
-            <input id="first-name">
-          </div>
-          <div class="push unit unit-xs-1 unit-l-1-2">
-            <label for="last-name" class="last-name">Last Name</label>
-            <input id="last-name">
-          </div>
-          <div class="push unit unit-xs-1 unit-l-1-2 bus">
-            <label for="bus">Business</label>
-            <input id="bus">
-          </div>
-          <div class="push unit unit-xs-1 unit-l-1-2">
-            <label for="email" class="email">Business Email</label>
-            <input type="email" id="email" required>
-          </div>
-          <div class="push unit unit-xs-1 unit-l-1-2 city">
-            <label for="city">City</label>
-            <input id="city">
-          </div>
-          <div class="push unit unit-xs-1 unit-l-1-2">
-            <label for="tel" class="tel">Phone Number</label>
-            <input type="tel" id="tel" required>
-          </div>
-        </div>
-      </fieldset>
-
-      <fieldset>
-        <legend class="giga push">Are you interested as a Musician or a Buyer?</legend>
-        <div role="radiogroup" class="push xs-1 text-center">
-          <input type="radio" id="musc" name="agree" value="musc">
-          <label for="musc" class="push-r">Musician</label>
-          <input type="radio" id="buyer" name="agree" value="buyer">
-          <label for="buyer">Buyer</label>
-        </div>
-      </fieldset>
-
-      <div class="push xs-1 text-center gutter-2">
-        <label for="pricing">Which account type are you interested in?</label>
-        <select id="pricing">
-          <option>Free Demo</option>
-          <option>Basic Account</option>
-          <option>Premium Account</option>
-        </select>
-      </div>
-
-      <fieldset>
-        <legend class="giga push">Additional Inquiries</legend>
-        <div class="push">
-          <label for="message">Please include any questions, comments, or concerns below.</label>
-          <textarea id="message" name="name" class="text-area"></textarea>
-        </div>
-      </fieldset>
-      <div class="text-center push-2">
-        <button type="submit" class="btn btn-purp gutter-2">Apply</button>
-      </div>
-      <input type="hidden" name="_subject" value="Rondo account request">
-
-    </form>
-  </div>
-</main>
+  </main>
+</body>
+</html>
