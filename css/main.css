@@ -39,7 +39,7 @@ header, footer {
   background-image: linear-gradient(to bottom, rgba(0, 25, 110, 0), rgba(0, 25, 110, 1));
 }
 
-section {
+main {
   background-color: #fff;
 }
 
@@ -73,6 +73,23 @@ section {
 
 .hover-box:focus {
   z-index: 10;
+}
+
+.btn {
+  background-color: #810000;
+  color: #faf7e4;
+  border-color: #810000;
+}
+
+.btn:hover {
+  background-color: #faf7e4;
+  color: #810000;
+  border-color: #810000;
+}
+
+footer a {
+  text-decoration: none;
+  color: #faf7e4;
 }
 
 @media only screen and (min-width: 38em) {
