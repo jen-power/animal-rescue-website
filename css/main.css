@@ -126,4 +126,8 @@ small {
     right: 4em;
   }
 
+  .form-pad {
+    padding-right: .5rem;
+  }
+
 }

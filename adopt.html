@@ -2,8 +2,10 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Adoption Application</title>
+  <title>Loyal Rescue</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon-196.png">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
@@ -16,44 +18,115 @@
   <main role="main" id="main" tabindex="0" class="wrapper gutter">
     <section>
       <h1 class="not-bold">Adoption Application</h1>
-      <div class="grid">
-        <div class="unit xs-1 m-1-2 push">
-          <img class="img-flex" src="images/dog.png" alt="picture of dog">
-        </div>
-        <div class="unit xs-1 m-1-2">
-          <h2 class="kilo not-bold">Description about adoption<a href="index.html">Rondo.</a></h2>
-        </div>
+      <div class="max-length pad-t">
+        <p>Please fill in as much information as possible in each field. If the application is not complete, we cannot consider you for one of our dogs. Adopting a rescued dog is a serious endeavor and should not be done as a "spur of the moment" action.</p>
       </div>
     </section>
 
     <div>
       <form class="max-length pad-t-2" method="POST" action="https://formspree.io/powe0309@algonquinlive.com">
+
+        <div class="push">
+          <label for="oath-1" class="xs-1 m-1 l-3-4 milli">I understand that this application form is not a guarantee that the dog I have applied for will still be available if my application to adopt a dog is approved, as there could be several applications for this dog already in progress or the dog may have a requirement that my home does not provide.</label>
+          <select id="oath-1" class="xs m-1 l-1-6">
+            <option></option>
+            <option>No</option>
+            <option>Yes</option>
+          </select>
+        </div>
+        <div class="push">
+          <label for="oath-1" class="xs-1 m-1 l-3-4 milli">I understand that LOYAL Rescue does not approve their dogs to applicants on a "first come first serve" basis, it is the best interest of the dog that is considered in the event of multiple applications for the same dog and the home best suited to the specific needs of the dog will be selected.</label>
+          <select id="oath-1" class="xs m-1 l-1-6">
+            <option></option>
+            <option>No</option>
+            <option>Yes</option>
+          </select>
+        </div>
+        <div class="push">
+          <label for="oath-1" class="xs-1 m-1 l-3-4 milli">In the event that the dog I have applied for is approved to another adopter before my application is processed I will select another dog from the LOYAL Rescue website and continue with my application screening.</label>
+          <select id="oath-1" class="xs m-1 l-1-6">
+            <option></option>
+            <option>No</option>
+            <option>Yes</option>
+          </select>
+        </div>
+        <div class="push">
+          <div class="grid">
+            <label for="oath-1" class="unit xs-1 m-1 l-3-4 milli">I understand and accept that virtually all "rescued" dogs will have behavioral issues of varying degrees. Many of these dogs have been abused or neglected and have a tendency to be more timid and/or defensive than a dog raised from birth by a knowledgeable and responsible dog owner. I understand and accept that while all known behavioral issues will be disclosed prior to the adoption being completed, it is entirely possible that minor or major behavioral issues may arise after the adoption has occurred and the dog is in my home. I am not expecting a pre-trained dog and am willing to work with this dog to help it overcome any issues it may have, or develops while under my care.</label>
+            <select id="oath-1" class="unit xs m-1 l-1-6">
+              <option></option>
+              <option>No</option>
+              <option>Yes</option>
+            </select>
+          </div>
+          </div>
+
         <fieldset>
           <legend class="giga push">Personal details</legend>
           <div class="grid">
-            <div class="push unit unit-xs-1 unit-m-1 unit-l-1-2 first-name">
+            <div class="push unit unit-xs-1 unit-m-1 unit-l-1-2 form-pad">
               <label for="first-name">First Name</label>
               <input id="first-name">
             </div>
             <div class="push unit unit-xs-1 unit-l-1-2">
-              <label for="last-name" class="last-name">Last Name</label>
+              <label for="last-name">Last Name</label>
               <input id="last-name">
             </div>
-            <div class="push unit unit-xs-1 unit-l-1-2 bus">
-              <label for="bus">Business</label>
-              <input id="bus">
+            <div class="push unit unit-xs-1 unit-l-1-2 form-pad">
+              <label for="address">Address</label>
+              <input id="address">
             </div>
             <div class="push unit unit-xs-1 unit-l-1-2">
-              <label for="email" class="email">Business Email</label>
-              <input type="email" id="email" required>
-            </div>
-            <div class="push unit unit-xs-1 unit-l-1-2 city">
               <label for="city">City</label>
-              <input id="city">
+              <input id="email" required>
+            </div>
+            <div class="push unit unit-xs-1 unit-l-1-2 form-pad">
+              <label for="prov">Province</label>
+              <input id="prov">
             </div>
             <div class="push unit unit-xs-1 unit-l-1-2">
-              <label for="tel" class="tel">Phone Number</label>
-              <input type="tel" id="tel" required>
+              <label for="postal">Postal Code</label>
+              <input id="postal" required>
+            </div>
+            <div class="push unit unit-xs-1 unit-l-1-2 form-pad">
+              <label for="e-mail">E-mail Address</label>
+              <input id="e-mail">
+            </div>
+            <div class="push unit unit-xs-1 unit-l-1-2">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone">
+            </div>
+            <div class="push unit unit-xs-1 unit-l-1-2 form-pad">
+              <label for="employ">Your Employer</label>
+              <input id="employ">
+            </div>
+            <div class="push unit unit-xs-1 unit-l-1-2">
+              <label for="employ-phone">Employer Phone Number</label>
+              <input type="tel" id="employ-phone">
+            </div>
+            <div class="push unit unit-xs-1 unit-l-1-2 form-pad">
+              <label for="job">Job Title</label>
+              <input id="job">
+            </div>
+            <div class="push unit unit-xs-1 unit-l-1-2">
+              <label for="employ-date">Employed Since</label>
+              <input type="tel" id="employ-date">
+            </div>
+            <div class="push unit unit-xs-1 unit-l-1-2 form-pad">
+              <label for="child">Number of Children</label>
+              <input id="child">
+            </div>
+            <div class="push unit unit-xs-1 unit-l-1-2">
+              <label for="child-ages">Ages</label>
+              <input type="tel" id="child-ages">
+            </div>
+            <div class="push unit unit-xs-1 unit-l-1-2 form-pad">
+              <label for="home-people">Number of People Residing in Home</label>
+              <input id="home-people">
+            </div>
+            <div class="push unit unit-xs-1 unit-l-1-2">
+              <label for="allergies">Known Allergies of Residents</label>
+              <input id="allergies">
             </div>
           </div>
         </fieldset>
