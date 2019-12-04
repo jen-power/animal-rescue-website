@@ -15,6 +15,10 @@ header, footer {
   color: #fff;
 }
 
+.paw-icon {
+  fill: #fff;
+}
+
 .header-nav a {
   text-decoration: none;
   color: #fff;
