@@ -3,7 +3,7 @@ html{
 }
 
 body {
-  background-color: #FAF7E4;
+  background-color: #faf7e4;
 }
 
 h1, h2, header {
@@ -11,7 +11,7 @@ h1, h2, header {
 }
 
 header, footer {
-  background-color: #00196E;
+  background-color: #00196e;
   color: #fff;
 }
 
@@ -34,13 +34,9 @@ header, footer {
 }
 
 .banner-dog figcaption {
-  background-image: linear-gradient(to bottom, rgba(0, 25, 110, 0), rgba(0, 25, 110, 1));
-}
-
-.banner-dog figcaption {
-  /* font-family: Staatliches, sans-serif; */
   bottom: 0em;
-  color: #FAF7E4;
+  color: #faf7e4;
+  background-image: linear-gradient(to bottom, rgba(0, 25, 110, 0), rgba(0, 25, 110, 1));
 }
 
 section {
