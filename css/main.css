@@ -1,4 +1,4 @@
-html{
+html {
   font-family: Raleway, sans-serif;
 }
 
@@ -38,7 +38,7 @@ header a {
 }
 
 .banner-dog figcaption {
-  bottom: 0em;
+  bottom: 0;
   color: #faf7e4;
   background-image: linear-gradient(to bottom, rgba(0, 25, 110, 0), rgba(0, 25, 110, 1));
 }
@@ -46,7 +46,6 @@ header a {
 main {
   background-color: #fff;
 }
-
 
 .hover-box {
   color: #000;
