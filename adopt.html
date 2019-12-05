@@ -15,9 +15,30 @@
 </head>
 <body>
 
+    <ul class="skip-links">
+      <li><a href="#main">Jump to main content</a></li>
+      <li><a href="#nav">Jump to navigation</a></li>
+    </ul>
+
+    <header>
+      <div class="grid grid-middle text-center wrapper">
+        <div class="unit xs-1 m-1-3 l-1-4 island-1-4">
+          <a class="text-center push-0 zetta inline-block lr" href="index.html">Loyal Rescue</a>
+        </div>
+        <div class="unit xs-1 m-2-3 l-3-4 right-nav">
+          <nav role="navigation" id="nav" tabindex="0" class="header-nav">
+            <ul class="list-group push-0">
+              <li><a class="island block peta" href="rescues.html">Available Dogs</a></li>
+              <li><a class="island block peta" href="adopt.html">Adopt</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
   <main role="main" id="main" tabindex="0" class="wrapper gutter">
     <section>
-      <h1 class="not-bold">Adoption Application</h1>
+      <h1 class="not-bold text-center pad-t">Adoption Application</h1>
       <div class="max-length pad-t">
         <p>Please fill in as much information as possible in each field. If the application is not complete, we cannot consider you for one of our dogs. Adopting a rescued dog is a serious endeavor and should not be done as a "spur of the moment" action.</p>
       </div>
@@ -150,7 +171,7 @@
           </div>
         </fieldset>
 
-        <fieldset>
+        <fieldset class="push-0">
           <legend class="">What kind of dog are you looking for?</legend>
           <div class="grid pad-t-1-2 pad-b-1-2">
             <div class="unit xs-1 m-1-2 push-1-4">
@@ -197,7 +218,7 @@
             <div class="unit xs-1 m-1-2 push-1-4">
               <label for="dog-age">Size</label>
             </div>
-            <div class="unit xs-1 s-1-2">
+            <div class="unit xs-1 s-1-2 push">
               <select id="dog-age">
                 <option>No preference</option>
                 <option>Toy</option>
@@ -208,8 +229,6 @@
             </div>
           </div>
 
-        <fieldset>
-          <legend class="giga push">Additional Inquiries</legend>
           <div class="push">
             <label for="message">Personality attributes that you are looking for in a dog, such as bold, passive, quiet, active:</label>
             <textarea id="message" name="name" class="text-area"></textarea>
@@ -222,7 +241,7 @@
             <label for="message">List other pets you have owned in the past 10 years and what happened to them:</label>
             <textarea id="message" name="name" class="text-area"></textarea>
           </div>
-        </fieldset>
+
         <div class="text-center push-2">
           <button type="submit" class="btn gutter-2">Submit</button>
         </div>
@@ -230,5 +249,25 @@
       </form>
     </div>
   </main>
+
+  <footer role="contentinfo" class="footer text-center">
+    <div class="grid">
+      <nav class="footer-nav unit xs-1 m-1 l-2-3">
+        <ul class="list-group-inline pad-t-1-2">
+          <li><a class="island-1-2 micro" href="#">Terms & Conditions</a></li>
+          <li><a class="island-1-2 micro" href="#">Privacy Policy</a></li>
+          <li><a class="island-1-2 micro" href="#">About</a></li>
+          <li><a class="island-1-2 micro" href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="unit xs-1 m-1 l-1-3">
+      <!-- social media icons -->
+      </div>
+    </div>
+    <div class="pad-b">
+      <small class="copyright pico">Copyright © Loyal Rescue 2019</small>
+    </div>
+  </footer>
+
 </body>
 </html>
