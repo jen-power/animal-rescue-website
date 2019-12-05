@@ -43,9 +43,6 @@ main {
   background-color: #fff;
 }
 
-.logo {
-  margin-top: 2em;
-}
 
 .hover-box {
   color: #000;
@@ -104,17 +101,16 @@ small {
 
 @media only screen and (min-width: 38em) {
 
-
-  .logo {
-    margin-top: 0;
-  }
-
   header nav ul li {
     display: inline-block;
   }
 
   .banner-dog {
     display: block;
+  }
+
+  .right-nav {
+    text-align: right;
   }
 
 
