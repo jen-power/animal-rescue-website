@@ -20,7 +20,7 @@
       <li><a href="#nav">Jump to navigation</a></li>
     </ul>
 
-    <header>
+    <header role="banner">
       <div class="grid grid-middle text-center wrapper">
         <div class="unit xs-1 m-1-3 l-1-4 island-1-4">
           <a class="text-center push-0 zetta inline-block lr" href="index.html">Loyal Rescue</a>
@@ -84,6 +84,7 @@
               <label for="no-4">No</label>
             </div>
           </div>
+        </fieldset>
 
           <fieldset>
             <legend class="giga push">Personal details</legend>
@@ -123,8 +124,6 @@
                   <option>YT</option>
                 </select>
               </div>
-            </fieldset>
-
 
             <div class="push unit unit-xs-1 unit-l-1-2">
               <label for="postal">Postal Code</label>
@@ -232,6 +231,7 @@
           </div>
         </fieldset>
 
+        <fieldset>
           <div class="push">
             <label for="message">Personality attributes that you are looking for in a dog, such as bold, passive, quiet, active:</label>
             <textarea id="message" name="name" class="text-area"></textarea>
@@ -244,6 +244,7 @@
             <label for="message">List other pets you have owned in the past 10 years and what happened to them:</label>
             <textarea id="message" name="name" class="text-area"></textarea>
           </div>
+        </fieldset>
 
         <div class="text-center push-2">
           <button type="submit" class="btn gutter-2">Submit</button>
@@ -253,8 +254,8 @@
     </div>
   </main>
 
-  <footer role="contentinfo" class="footer text-center">
-    <div class="grid">
+  <footer role="contentinfo" class="text-center">
+    <div class="grid wrapper">
       <nav class="footer-nav unit xs-1 m-1 l-2-3">
         <ul class="list-group-inline pad-t-1-2">
           <li><a class="island-1-2 micro" href="#">Terms & Conditions</a></li>
@@ -263,8 +264,30 @@
           <li><a class="island-1-2 micro" href="#">Contact</a></li>
         </ul>
       </nav>
-      <div class="unit xs-1 m-1 l-1-3">
-      <!-- social media icons -->
+      <div class="unit xs-1 m-1 l-1-3 pad-t-1-4">
+        <ul class="list-group-inline">
+          <li>
+            <a class="block push-r-1-4" href="#">
+              <i class="icon i-48">
+                <svg><use xlink:href="images/icons.svg#facebook"/></svg>
+              </i>
+            </a>
+          </li>
+          <li>
+            <a class="block push-r-1-4" href="#">
+              <i class="icon i-48">
+                <svg><use xlink:href="images/icons.svg#twitter"/></svg>
+              </i>
+            </a>
+          </li>
+          <li>
+            <a class="block push-r-1-4" href="#">
+              <i class="icon i-48">
+                <svg><use xlink:href="images/icons.svg#instagram"/></svg>
+              </i>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
     <div class="pad-b">
