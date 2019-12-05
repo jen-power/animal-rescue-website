@@ -151,27 +151,82 @@
         </fieldset>
 
         <fieldset>
-          <legend class="giga push">Are you interested as a Musician or a Buyer?</legend>
-          <div role="radiogroup" class="push xs-1 text-center">
-            <input type="radio" id="musc" name="agree" value="musc">
-            <label for="musc" class="push-r">Musician</label>
-            <input type="radio" id="buyer" name="agree" value="buyer">
-            <label for="buyer">Buyer</label>
+          <legend class="">What kind of dog are you looking for?</legend>
+          <div class="grid pad-t-1-2 pad-b-1-2">
+            <div class="unit xs-1 m-1-2 push-1-4">
+              <label for="dog-age">Age</label>
+            </div>
+            <div class="unit xs-1 s-1-2">
+              <select id="dog-age">
+                <option>No preference</option>
+                <option>Baby</option>
+                <option>Puppy</option>
+                <option>Teen</option>
+                <option>Adult</option>
+                <option>Senior</option>
+              </select>
+            </div>
           </div>
-        </fieldset>
+          <div class="grid pad-t-1-2 pad-b-1-2">
+            <div class="unit xs-1 m-1-2 push-1-4">
+              <label for="dog-age">Activity Level</label>
+            </div>
+            <div class="unit xs-1 s-1-2">
+              <select id="dog-age">
+                <option>No preference</option>
+                <option>Minimal</option>
+                <option>Moderate</option>
+                <option>Active</option>
+                <option>Very Active</option>
+              </select>
+            </div>
+          </div>
+          <div class="grid pad-t-1-2 pad-b-1-2">
+            <div class="unit xs-1 m-1-2 push-1-4">
+              <label for="dog-age">Sex</label>
+            </div>
+            <div class="unit xs-1 s-1-2">
+              <select id="dog-age">
+                <option>No preference</option>
+                <option>Male</option>
+                <option>Female</option>
+              </select>
+            </div>
+          </div>
+          <div class="grid pad-t-1-2 pad-b-1-2">
+            <div class="unit xs-1 m-1-2 push-1-4">
+              <label for="dog-age">Size</label>
+            </div>
+            <div class="unit xs-1 s-1-2">
+              <select id="dog-age">
+                <option>No preference</option>
+                <option>Toy</option>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+              </select>
+            </div>
+          </div>
 
         <fieldset>
           <legend class="giga push">Additional Inquiries</legend>
           <div class="push">
-            <label for="message">Please include any questions, comments, or concerns below.</label>
+            <label for="message">Personality attributes that you are looking for in a dog, such as bold, passive, quiet, active:</label>
+            <textarea id="message" name="name" class="text-area"></textarea>
+          </div>
+          <div class="push">
+            <label for="message">Do you have a breed preference? If so, please list.</label>
+            <textarea id="message" name="name" class="text-area"></textarea>
+          </div>
+          <div class="push">
+            <label for="message">List other pets you have owned in the past 10 years and what happened to them:</label>
             <textarea id="message" name="name" class="text-area"></textarea>
           </div>
         </fieldset>
         <div class="text-center push-2">
-          <button type="submit" class="btn btn-purp gutter-2">Apply</button>
+          <button type="submit" class="btn gutter-2">Submit</button>
         </div>
-        <input type="hidden" name="_subject" value="Rondo account request">
-
+        <input type="hidden" name="_subject" value="Adoption Application">
       </form>
     </div>
   </main>

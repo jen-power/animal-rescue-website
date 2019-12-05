@@ -19,9 +19,13 @@ header, footer {
   fill: #fff;
 }
 
-.header-nav a {
+header a {
   text-decoration: none;
   color: #fff;
+}
+
+.lr:hover, .lr:focus {
+  text-decoration: underline;
 }
 
 .header-nav a:hover {
