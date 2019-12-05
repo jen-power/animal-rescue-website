@@ -15,26 +15,26 @@
 </head>
 <body>
 
-    <ul class="skip-links">
-      <li><a href="#main">Jump to main content</a></li>
-      <li><a href="#nav">Jump to navigation</a></li>
-    </ul>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
 
-    <header role="banner">
-      <div class="grid grid-middle text-center wrapper">
-        <div class="unit xs-1 m-1-3 l-1-4 island-1-4">
-          <a class="text-center push-0 zetta inline-block lr" href="index.html">Loyal Rescue</a>
-        </div>
-        <div class="unit xs-1 m-2-3 l-3-4 right-nav">
-          <nav role="navigation" id="nav" tabindex="0" class="header-nav">
-            <ul class="list-group push-0">
-              <li><a class="island block peta" href="rescues.html">Available Dogs</a></li>
-              <li><a class="island block peta" href="adopt.html">Adopt</a></li>
-            </ul>
-          </nav>
-        </div>
+  <header role="banner">
+    <div class="grid grid-middle text-center wrapper">
+      <div class="unit xs-1 m-1-3 l-1-4 island-1-4">
+        <a class="text-center push-0 zetta inline-block lr" href="index.html">Loyal Rescue</a>
       </div>
-    </header>
+      <div class="unit xs-1 m-2-3 l-3-4 right-nav">
+        <nav role="navigation" id="nav" tabindex="0" class="header-nav">
+          <ul class="list-group push-0">
+            <li><a class="island block peta" href="rescues.html">Available Dogs</a></li>
+            <li><a class="island block peta" href="adopt.html">Adopt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
 
   <main role="main" id="main" tabindex="0" class="wrapper gutter">
     <section>
@@ -46,46 +46,49 @@
 
     <div>
       <form class="max-length pad-t" method="POST" action="https://formspree.io/powe0309@algonquinlive.com">
-      <hr>
+        <hr>
         <div>
           <fieldset>
-            <label for="oath-1" class="xs-1 milli push">I understand that this application form is not a guarantee that the dog I have applied for will still be available if my application to adopt a dog is approved, as there could be several applications for this dog already in progress or the dog may have a requirement that my home does not provide.</label>
-            <div role="radiogroup" class="push xs-1">
-              <input type="radio" id="yes-1" name="agree">
-              <label for="yes-1" class="push-r">Yes</label>
-              <input type="radio" id="no-1" name="agree">
-              <label for="no-1">No</label>
-            </div>
-          </div>
-          <div>
-            <label for="oath-1" class="xs-1 milli push">I understand that LOYAL Rescue does not approve their dogs to applicants on a "first come first serve" basis, it is the best interest of the dog that is considered in the event of multiple applications for the same dog and the home best suited to the specific needs of the dog will be selected.</label>
-            <div role="radiogroup" class="push xs-1">
-              <input type="radio" id="yes-2" name="agree-2" value="yes">
-              <label for="yes-2" class="push-r">Yes</label>
-              <input type="radio" id="no-2" name="agree-2" value="no">
-              <label for="no-2">No</label>
-            </div>
-          </div>
-          <div>
-            <label for="oath-1" class="xs-1 milli push">In the event that the dog I have applied for is approved to another adopter before my application is processed I will select another dog from the LOYAL Rescue website and continue with my application screening.</label>
-            <div role="radiogroup" class="push xs-1">
-              <input type="radio" id="yes-3" name="agree-3" value="yes">
-              <label for="yes-3" class="push-r">Yes</label>
-              <input type="radio" id="no" name="agree-3" value="no">
-              <label for="no">No</label>
-            </div>
-          </div>
-          <div>
-            <label for="oath-1" class="xs-1 milli push">I understand and accept that virtually all "rescued" dogs will have behavioral issues of varying degrees. Many of these dogs have been abused or neglected and have a tendency to be more timid and/or defensive than a dog raised from birth by a knowledgeable and responsible dog owner. I understand and accept that while all known behavioral issues will be disclosed prior to the adoption being completed, it is entirely possible that minor or major behavioral issues may arise after the adoption has occurred and the dog is in my home. I am not expecting a pre-trained dog and am willing to work with this dog to help it overcome any issues it may have, or develops while under my care.</label>
-            <div role="radiogroup" class="push xs-1">
-              <input type="radio" id="yes-4" name="agree-4" value="yes">
-              <label for="yes-4" class="push-r">Yes</label>
-              <input type="radio" id="no-4" name="agree-4" value="no">
-              <label for="no-4">No</label>
-            </div>
-          </div>
-        </fieldset>
+            <fieldset>
+              <legend for="oath-1" class="xs-1 milli push">I understand that this application form is not a guarantee that the dog I have applied for will still be available if my application to adopt a dog is approved, as there could be several applications for this dog already in progress or the dog may have a requirement that my home does not provide.</legend>
+              <div role="radiogroup" id="oath-1" class="push xs-1">
+                <input type="radio" id="yes-1" name="agree">
+                <label for="yes-1" class="push-r">Yes</label>
+                <input type="radio" id="no-1" name="agree">
+                <label for="no-1">No</label>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend for="oath-2" class="xs-1 milli push">I understand that LOYAL Rescue does not approve their dogs to applicants on a "first come first serve" basis, it is the best interest of the dog that is considered in the event of multiple applications for the same dog and the home best suited to the specific needs of the dog will be selected.</legend>
+              <div role="radiogroup" id="oath-2" class="push xs-1">
+                <input type="radio" id="yes-2" name="agree-2" value="yes">
+                <label for="yes-2" class="push-r">Yes</label>
+                <input type="radio" id="no-2" name="agree-2" value="no">
+                <label for="no-2">No</label>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend for="oath-3" class="xs-1 milli push">In the event that the dog I have applied for is approved to another adopter before my application is processed I will select another dog from the LOYAL Rescue website and continue with my application screening.</legend>
+              <div role="radiogroup" id="oath-3" class="push xs-1">
+                <input type="radio" id="yes-3" name="agree-3" value="yes">
+                <label for="yes-3" class="push-r">Yes</label>
+                <input type="radio" id="no" name="agree-3" value="no">
+                <label for="no">No</label>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend for="oath-4" class="xs-1 milli push">I understand and accept that virtually all "rescued" dogs will have behavioral issues of varying degrees. Many of these dogs have been abused or neglected and have a tendency to be more timid and/or defensive than a dog raised from birth by a knowledgeable and responsible dog owner. I understand and accept that while all known behavioral issues will be disclosed prior to the adoption being completed, it is entirely possible that minor or major behavioral issues may arise after the adoption has occurred and the dog is in my home. I am not expecting a pre-trained dog and am willing to work with this dog to help it overcome any issues it may have, or develops while under my care.</legend>
+              <div role="radiogroup" id="oath-4" class="push xs-1">
+                <input type="radio" id="yes-4" name="agree-4" value="yes">
+                <label for="yes-4" class="push-r">Yes</label>
+                <input type="radio" id="no-4" name="agree-4" value="no">
+                <label for="no-4">No</label>
+              </div>
+            </fieldset>
+          </fieldset>
+        </div>
 
+        <div>
           <fieldset>
             <legend class="giga push">Personal details</legend>
             <div class="grid">
@@ -125,126 +128,131 @@
                 </select>
               </div>
 
-            <div class="push unit unit-xs-1 unit-l-1-2">
-              <label for="postal">Postal Code</label>
-              <input id="postal" required>
+              <div class="push unit unit-xs-1 unit-l-1-2">
+                <label for="postal">Postal Code</label>
+                <input id="postal" required>
+              </div>
+              <div class="push unit unit-xs-1 unit-l-1-2 form-pad">
+                <label for="e-mail">E-mail Address</label>
+                <input type="email" id="e-mail">
+              </div>
+              <div class="push unit unit-xs-1 unit-l-1-2">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone">
+              </div>
+              <div class="push unit unit-xs-1 unit-l-1-2 form-pad">
+                <label for="employ">Your Employer</label>
+                <input id="employ">
+              </div>
+              <div class="push unit unit-xs-1 unit-l-1-2">
+                <label for="employ-phone">Employer Phone Number</label>
+                <input type="tel" id="employ-phone">
+              </div>
+              <div class="push unit unit-xs-1 unit-l-1-2 form-pad">
+                <label for="job">Job Title</label>
+                <input id="job">
+              </div>
+              <div class="push unit unit-xs-1 unit-l-1-2">
+                <label for="employ-date">Employed Since</label>
+                <input type="tel" id="employ-date">
+              </div>
+              <div class="push unit unit-xs-1 unit-l-1-2 form-pad">
+                <label for="child">Number of Children</label>
+                <input id="child">
+              </div>
+              <div class="push unit unit-xs-1 unit-l-1-2">
+                <label for="child-ages">Ages</label>
+                <input type="tel" id="child-ages">
+              </div>
+              <div class="push unit unit-xs-1 unit-l-1-2 form-pad">
+                <label for="home-people">Number of People Residing in Home</label>
+                <input id="home-people">
+              </div>
+              <div class="push unit unit-xs-1 unit-l-1-2">
+                <label for="allergies">Known Allergies of Residents</label>
+                <input id="allergies">
+              </div>
             </div>
-            <div class="push unit unit-xs-1 unit-l-1-2 form-pad">
-              <label for="e-mail">E-mail Address</label>
-              <input type="email" id="e-mail">
-            </div>
-            <div class="push unit unit-xs-1 unit-l-1-2">
-              <label for="phone">Phone Number</label>
-              <input type="tel" id="phone">
-            </div>
-            <div class="push unit unit-xs-1 unit-l-1-2 form-pad">
-              <label for="employ">Your Employer</label>
-              <input id="employ">
-            </div>
-            <div class="push unit unit-xs-1 unit-l-1-2">
-              <label for="employ-phone">Employer Phone Number</label>
-              <input type="tel" id="employ-phone">
-            </div>
-            <div class="push unit unit-xs-1 unit-l-1-2 form-pad">
-              <label for="job">Job Title</label>
-              <input id="job">
-            </div>
-            <div class="push unit unit-xs-1 unit-l-1-2">
-              <label for="employ-date">Employed Since</label>
-              <input type="tel" id="employ-date">
-            </div>
-            <div class="push unit unit-xs-1 unit-l-1-2 form-pad">
-              <label for="child">Number of Children</label>
-              <input id="child">
-            </div>
-            <div class="push unit unit-xs-1 unit-l-1-2">
-              <label for="child-ages">Ages</label>
-              <input type="tel" id="child-ages">
-            </div>
-            <div class="push unit unit-xs-1 unit-l-1-2 form-pad">
-              <label for="home-people">Number of People Residing in Home</label>
-              <input id="home-people">
-            </div>
-            <div class="push unit unit-xs-1 unit-l-1-2">
-              <label for="allergies">Known Allergies of Residents</label>
-              <input id="allergies">
-            </div>
-          </div>
-        </fieldset>
+          </fieldset>
+        </div>
 
-        <fieldset class="push-0">
-          <legend class="">What kind of dog are you looking for?</legend>
-          <div class="grid pad-t-1-2 pad-b-1-2">
-            <div class="unit xs-1 m-1-2 push-1-4">
-              <label for="dog-age">Age</label>
+        <div>
+          <fieldset class="push-0">
+            <legend class="">What kind of dog are you looking for?</legend>
+            <div class="grid pad-t-1-2 pad-b-1-2">
+              <div class="unit xs-1 m-1-2 push-1-4">
+                <label for="dog-age">Age</label>
+              </div>
+              <div class="unit xs-1 s-1-2">
+                <select id="dog-age">
+                  <option>No preference</option>
+                  <option>Baby</option>
+                  <option>Puppy</option>
+                  <option>Teen</option>
+                  <option>Adult</option>
+                  <option>Senior</option>
+                </select>
+              </div>
             </div>
-            <div class="unit xs-1 s-1-2">
-              <select id="dog-age">
-                <option>No preference</option>
-                <option>Baby</option>
-                <option>Puppy</option>
-                <option>Teen</option>
-                <option>Adult</option>
-                <option>Senior</option>
-              </select>
+            <div class="grid pad-t-1-2 pad-b-1-2">
+              <div class="unit xs-1 m-1-2 push-1-4">
+                <label for="dog-act">Activity Level</label>
+              </div>
+              <div class="unit xs-1 s-1-2">
+                <select id="dog-act">
+                  <option>No preference</option>
+                  <option>Minimal</option>
+                  <option>Moderate</option>
+                  <option>Active</option>
+                  <option>Very Active</option>
+                </select>
+              </div>
             </div>
-          </div>
-          <div class="grid pad-t-1-2 pad-b-1-2">
-            <div class="unit xs-1 m-1-2 push-1-4">
-              <label for="dog-act">Activity Level</label>
+            <div class="grid pad-t-1-2 pad-b-1-2">
+              <div class="unit xs-1 m-1-2 push-1-4">
+                <label for="dog-sex">Sex</label>
+              </div>
+              <div class="unit xs-1 s-1-2">
+                <select id="dog-sex">
+                  <option>No preference</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                </select>
+              </div>
             </div>
-            <div class="unit xs-1 s-1-2">
-              <select id="dog-act">
-                <option>No preference</option>
-                <option>Minimal</option>
-                <option>Moderate</option>
-                <option>Active</option>
-                <option>Very Active</option>
-              </select>
+            <div class="grid pad-t-1-2 pad-b-1-2">
+              <div class="unit xs-1 m-1-2 push-1-4">
+                <label for="dog-size">Size</label>
+              </div>
+              <div class="unit xs-1 s-1-2 push">
+                <select id="dog-size">
+                  <option>No preference</option>
+                  <option>Toy</option>
+                  <option>Small</option>
+                  <option>Medium</option>
+                  <option>Large</option>
+                </select>
+              </div>
             </div>
-          </div>
-          <div class="grid pad-t-1-2 pad-b-1-2">
-            <div class="unit xs-1 m-1-2 push-1-4">
-              <label for="dog-sex">Sex</label>
-            </div>
-            <div class="unit xs-1 s-1-2">
-              <select id="dog-sex">
-                <option>No preference</option>
-                <option>Male</option>
-                <option>Female</option>
-              </select>
-            </div>
-          </div>
-          <div class="grid pad-t-1-2 pad-b-1-2">
-            <div class="unit xs-1 m-1-2 push-1-4">
-              <label for="dog-size">Size</label>
-            </div>
-            <div class="unit xs-1 s-1-2 push">
-              <select id="dog-size">
-                <option>No preference</option>
-                <option>Toy</option>
-                <option>Small</option>
-                <option>Medium</option>
-                <option>Large</option>
-              </select>
-            </div>
-          </div>
-        </fieldset>
+          </fieldset>
+        </div>
 
-        <fieldset>
-          <div class="push">
-            <label for="message">Personality attributes that you are looking for in a dog, such as bold, passive, quiet, active:</label>
-            <textarea id="message" name="name" class="text-area"></textarea>
-          </div>
-          <div class="push">
-            <label for="message">Do you have a breed preference? If so, please list.</label>
-            <textarea id="message" name="name" class="text-area"></textarea>
-          </div>
-          <div class="push">
-            <label for="message">List other pets you have owned in the past 10 years and what happened to them:</label>
-            <textarea id="message" name="name" class="text-area"></textarea>
-          </div>
-        </fieldset>
+        <div>
+          <fieldset>
+            <div class="push">
+              <label for="message">Personality attributes that you are looking for in a dog, such as bold, passive, quiet, active:</label>
+              <textarea id="message" name="name" class="text-area"></textarea>
+            </div>
+            <div class="push">
+              <label for="message">Do you have a breed preference? If so, please list.</label>
+              <textarea id="message" name="name" class="text-area"></textarea>
+            </div>
+            <div class="push">
+              <label for="message">List other pets you have owned in the past 10 years and what happened to them:</label>
+              <textarea id="message" name="name" class="text-area"></textarea>
+            </div>
+          </fieldset>
+        </div>
 
         <div class="text-center push-2">
           <button type="submit" class="btn gutter-2">Submit</button>
