@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Loyal Rescue</title>
+  <title>Adoption Application</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="icon" type="image/png" href="favicon-196.png">
@@ -35,7 +35,6 @@
             <label for="no-1">No</label>
           </div>
         </div>
-
         <div>
           <label for="oath-1" class="xs-1 milli push">I understand that LOYAL Rescue does not approve their dogs to applicants on a "first come first serve" basis, it is the best interest of the dog that is considered in the event of multiple applications for the same dog and the home best suited to the specific needs of the dog will be selected.</label>
           <div role="radiogroup" class="push xs-1">
@@ -45,27 +44,24 @@
             <label for="no-2">No</label>
           </div>
         </div>
-
         <div>
           <label for="oath-1" class="xs-1 milli push">In the event that the dog I have applied for is approved to another adopter before my application is processed I will select another dog from the LOYAL Rescue website and continue with my application screening.</label>
           <div role="radiogroup" class="push xs-1">
-            <input type="radio" id="yes" name="agree-3" value="yes">
-            <label for="yes" class="push-r">Yes</label>
+            <input type="radio" id="yes-3" name="agree-3" value="yes">
+            <label for="yes-3" class="push-r">Yes</label>
             <input type="radio" id="no" name="agree-3" value="no">
             <label for="no">No</label>
           </div>
         </div>
-
         <div>
           <label for="oath-1" class="xs-1 milli push">I understand and accept that virtually all "rescued" dogs will have behavioral issues of varying degrees. Many of these dogs have been abused or neglected and have a tendency to be more timid and/or defensive than a dog raised from birth by a knowledgeable and responsible dog owner. I understand and accept that while all known behavioral issues will be disclosed prior to the adoption being completed, it is entirely possible that minor or major behavioral issues may arise after the adoption has occurred and the dog is in my home. I am not expecting a pre-trained dog and am willing to work with this dog to help it overcome any issues it may have, or develops while under my care.</label>
           <div role="radiogroup" class="push xs-1">
-            <input type="radio" id="yes" name="agree-4" value="yes">
-            <label for="yes" class="push-r">Yes</label>
-            <input type="radio" id="no" name="agree-4" value="no">
-            <label for="no">No</label>
+            <input type="radio" id="yes-4" name="agree-4" value="yes">
+            <label for="yes-4" class="push-r">Yes</label>
+            <input type="radio" id="no-4" name="agree-4" value="no">
+            <label for="no-4">No</label>
           </div>
         </div>
-
 
         <fieldset>
           <legend class="giga push">Personal details</legend>
@@ -84,19 +80,36 @@
             </div>
             <div class="push unit unit-xs-1 unit-l-1-2">
               <label for="city">City</label>
-              <input id="email" required>
+              <input id="city" required>
             </div>
             <div class="push unit unit-xs-1 unit-l-1-2 form-pad">
               <label for="prov">Province</label>
-              <input id="prov">
+              <select id="prov">
+                <option>Select one</option>
+                <option>AB</option>
+                <option>BC</option>
+                <option>MB</option>
+                <option>NB</option>
+                <option>NL</option>
+                <option>NT</option>
+                <option>NS</option>
+                <option>NU</option>
+                <option>ON</option>
+                <option>PE</option>
+                <option>QC</option>
+                <option>SK</option>
+                <option>YT</option>
+              </select>
             </div>
+
+
             <div class="push unit unit-xs-1 unit-l-1-2">
               <label for="postal">Postal Code</label>
               <input id="postal" required>
             </div>
             <div class="push unit unit-xs-1 unit-l-1-2 form-pad">
               <label for="e-mail">E-mail Address</label>
-              <input id="e-mail">
+              <input type="email" id="e-mail">
             </div>
             <div class="push unit unit-xs-1 unit-l-1-2">
               <label for="phone">Phone Number</label>
@@ -146,15 +159,6 @@
             <label for="buyer">Buyer</label>
           </div>
         </fieldset>
-
-        <div class="push xs-1 text-center gutter-2">
-          <label for="pricing">Which account type are you interested in?</label>
-          <select id="pricing">
-            <option>Free Demo</option>
-            <option>Basic Account</option>
-            <option>Premium Account</option>
-          </select>
-        </div>
 
         <fieldset>
           <legend class="giga push">Additional Inquiries</legend>
