@@ -102,6 +102,10 @@ small {
   color: #faf7e4;
 }
 
+.rescue-img {
+  border-radius: 20px;
+}
+
 @media only screen and (min-width: 38em) {
 
   header nav ul li {
@@ -114,6 +118,14 @@ small {
 
   .right-nav {
     text-align: right;
+  }
+
+  .rescue-desc {
+    padding-left: 2em;
+  }
+
+  dl dd, dl dt {
+    display: inline;
   }
 
 }
