@@ -40,15 +40,14 @@
     <section>
       <h1 class="not-bold text-center pad-t">Adoption Application</h1>
       <div class="max-length pad-t">
-        <p>Please fill in as much information as possible in each field. If the application is not complete, we cannot consider you for one of our dogs. Adopting a rescued dog is a serious endeavor and should not be done as a "spur of the moment" action.</p>
+        <p class="push-0">Please fill in as much information as possible in each field. If the application is not complete, we cannot consider you for one of our dogs. Adopting a rescued dog is a serious endeavor and should not be done as a "spur of the moment" action.</p>
       </div>
     </section>
 
     <div>
       <form class="max-length pad-t" method="POST" action="https://formspree.io/powe0309@algonquinlive.com">
-        <hr>
         <div>
-          <fieldset>
+          <fieldset class="pad-t push-0">
             <fieldset>
               <legend for="oath-1" class="xs-1 milli push">I understand that this application form is not a guarantee that the dog I have applied for will still be available if my application to adopt a dog is approved, as there could be several applications for this dog already in progress or the dog may have a requirement that my home does not provide.</legend>
               <div role="radiogroup" id="oath-1" class="push xs-1">
@@ -76,7 +75,7 @@
                 <label for="no">No</label>
               </div>
             </fieldset>
-            <fieldset>
+            <fieldset class="push-0">
               <legend for="oath-4" class="xs-1 milli push">I understand and accept that virtually all "rescued" dogs will have behavioral issues of varying degrees. Many of these dogs have been abused or neglected and have a tendency to be more timid and/or defensive than a dog raised from birth by a knowledgeable and responsible dog owner. I understand and accept that while all known behavioral issues will be disclosed prior to the adoption being completed, it is entirely possible that minor or major behavioral issues may arise after the adoption has occurred and the dog is in my home. I am not expecting a pre-trained dog and am willing to work with this dog to help it overcome any issues it may have, or develops while under my care.</legend>
               <div role="radiogroup" id="oath-4" class="push xs-1">
                 <input type="radio" id="yes-4" name="agree-4" value="yes">
@@ -238,7 +237,7 @@
         </div>
 
         <div>
-          <fieldset>
+          <fieldset class="pad-t">
             <div class="push">
               <label for="message">Personality attributes that you are looking for in a dog, such as bold, passive, quiet, active:</label>
               <textarea id="message" name="name" class="text-area"></textarea>
@@ -254,7 +253,7 @@
           </fieldset>
         </div>
 
-        <div class="text-center push-2">
+        <div class="text-center pad-b-2">
           <button type="submit" class="btn gutter-2">Submit</button>
         </div>
         <input type="hidden" name="_subject" value="Adoption Application">
