@@ -111,10 +111,26 @@ small {
   text-decoration: none;
 }
 
+.white-nav {
+  background-color: #fff;
+}
+
+.white-nav a {
+  color: #00196e;
+}
+
 @media only screen and (min-width: 38em) {
 
   header nav ul li {
     display: inline-block;
+  }
+
+  .white-nav {
+    background-color: #00196e;
+  }
+
+  .white-nav a {
+    color: #fff;
   }
 
   .banner-dog {
